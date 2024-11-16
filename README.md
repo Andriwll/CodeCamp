@@ -1,2 +1,2 @@
 # CatPhotoAPP
- FreeCodeCamp
+ FreeCodeCamp classes
