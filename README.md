@@ -1,1 +1,1 @@
-# Future Project will be displayed here.
+# Future projects will be displayed here.
