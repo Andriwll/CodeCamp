@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>
+      <meta charset="utf-8"> </meta>
+    </title>
+  </head>
+
+  <body>
+    <h1> Aprenda a fazer churros! </h1>
+      <p> Aqui vamos descobrir como você pode, em casa, fazer seus próprios churros caseiros! </p>
+      <img src="https://static.itdg.com.br/images/640-400/14921f3c92c3c1ee77563dae5027d0a7/150572-original.jpg" alt="Churros em um prato com chocolate em uma jarra.">
+    <h2>Ingredientes</h2>
+	
+    <ul>
+      <li> leite 1 e 1/2 xícara (chá) de leite </li>
+      <li> 1/2 xícara (chá) de água </li>
+      <li> 2 colheres (sopa) de margarina ou manteiga</li>
+      <li> 2 xícaras (chá) de farinha de trigo </li>
+      <li>sal a gosto</li>
+      <li>açúcar a gosto</li>
+      <li>canela a gosto</li>
+    </ul>
+
+    <h2>Instruções</h2>
+    <ol>
+     <li> Em uma panela, adicione o leite, a água, a manteiga e o sal. </li>
+     <li> Quando o leite ferver, adicione a farinha de trigo e mexa rápido até a massa soltar do fundo da panela. </li>
+     <li> Coloque a massa em um saco de confeiteiro com o bico pitanga, depois faça tirinhas com a massa e frite. </li>
+     <li> isture a canela e o açúcar, depois passe nos churros fritos. </li> 
+    </ol>
+
+  </body>
+
+</html>

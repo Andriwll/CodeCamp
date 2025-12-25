@@ -1,0 +1,40 @@
+** start of index.html **
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="description" content="Come to brazil and discover the beautiful sightseeing this beautiful country has to offer!"></meta>
+    <meta charset="utf-8"></meta>
+    <title>Find yourself in Brazil</title>
+  </head>
+
+  <body>
+
+    <h1>You will find what you miss in Brazil</h1>
+
+    <p>History, flora and fauna, spectacular cuisine, beautiful beaches, trails and camping, tropical climate and much more! </p>
+
+    <h2>Packages</h2>
+<p> We offer countless solutions to fulfill all your needs. From daily touring in the most proeminent cities in Brazil to monthly planned journeys through forests, cities, mounts and rivers to enjoy Brazil's diversity to it's fullest. </p>
+
+<ul>
+  <li><a target="_blank" href="https://www.freecodecamp.org/learn">Group Travels</a></li>
+  <li><a target="_blank" href="https://www.freecodecamp.org/learn">Private Tours</a></li>
+</ul>
+
+<h2>
+  Top Itineraries
+</h2>
+
+<figure><a target="_blank" href="https://www.freecodecamp.org/learn"><img alt="A person next to rocks and some foliage, looking at the scenery" src="https://comoviajeiblog.wordpress.com/wp-content/uploads/2023/10/img_9910.jpeg?w=1024"></a><figcaption>Beautiful Trails</figcaption></figure>
+<figure><a target="_blank" href="https://www.freecodecamp.org/learn"><img alt="Maranhão's lençois, they are beautiful mounds with water around which make mesmerazing patterns." src="https://content.nationalgeographic.pt/medio/2024/08/02/lencois-maranhenses-1-6c45fb9b_b2b62afb_240801151513_240802111350_1200x630.jpg"></a><figcaption>Tropical Beaches</figcaption></figure>
+<figure><a target="_blank" href="https://www.freecodecamp.org/learn"><img alt="Vintage looking buildings with people around."src="https://www.tripsavvy.com/thmb/r0mqeg1hZfGgk86rpXsDV_QRHgc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-861459996-5a4bb071482c5200364c1240.jpg"></a><figcaption>Amazing Cities</figcaption></figure>
+
+
+
+  </body>  
+</html>
+
+** end of index.html **
+
