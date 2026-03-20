@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- base -->
+  <style class="fcc-hide-header">
+    head *, title, meta, link, script {
+      display: none !important;
+    }
+  </style>
+  <script>
+    window.__frameId = 'fcc-main-frame';
+    window.onerror = function(msg) {
+      const string = msg.toLowerCase();
+      if (string.includes('script error')) {
+        msg = 'Build error, open your browser console to learn more.';
+      }
+      console.log(msg);
+      return true;
+    };
+    document.addEventListener('click', function(e) {
+      let element = e.target;
+      while(element && element.nodeName !== 'A') {
+        element = element.parentElement;
+      }
+      if (element && element.nodeName === 'A' && new URL(element.href).hash === '') {
+        e.preventDefault();
+        window.parent.window.alert(
+          i18nContent.t('misc.iframe-alert', { externalLink: element.href })
+        )
+      }
+      if (element) {
+        const href = element.getAttribute('href');
+        if (!href || href[0] !== '#' && !href.match(/^https?:\/\//)) {
+          e.preventDefault();
+        }
+        else if (href.match(/^#.+/)) {
+          e.preventDefault();
+          const scrollId = href.substring(1);
+          window.location.hash = scrollId;
+        }
+      }
+    }, false);
+    document.addEventListener('submit', function(e) {
+      const action = e.target.getAttribute('action');
+      e.preventDefault();
+      if (action && action.match(/https?:\/\//)) {
+        window.parent.window.alert(
+          i18nContent.t('misc.iframe-form-submit-alert', { externalLink: action  })
+        )
+      }
+    }, false);
+  </script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Working with the HTML Audio Element</title></head>
+  
+  
+  
+
+<body>
+  <h1>freeCodeCamp Tunes</h1>
+
+  <h2>Can't Stay Down</h2>
+  <p>Artist: Quincy Larson</p>
+  
+  <audio src="a_data/can't-stay-down.mp3" loop="" controls="controls"></audio>
+
+  <h2>Cruising for a Musing</h2>
+  <p>Artist: Quincy Larson</p>
+
+  <audio src="a_data/cruising-for-a-musing.mp3" loop="" controls="controls"></audio>
+
+  <h2>Scratching the Surface</h2>
+  <p>Artist: Quincy Larson</p>
+
+  <audio src="a_data/scratching-the-surface.mp3" loop="" controls="controls"></audio>
+
+
+</body><contextsearch-widgets id="contextsearch-widgets" style="--cs-zoom: 1; --cs-scale: calc( 1 / var(--cs-zoom,1) * var(--cs-custom-scale,1));"></contextsearch-widgets></html>
